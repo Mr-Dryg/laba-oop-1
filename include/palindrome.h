@@ -2,4 +2,4 @@
 
 #include <string>
 
-bool is_palindrome(std::string word);
+bool is_palindrome(const std::string & word);

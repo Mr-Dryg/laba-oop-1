@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-bool is_palindrome(std::string word)
+bool is_palindrome(const std::string & word)
 {
     int word_length = word.length();
     int word_middle = word_length / 2;
